@@ -17,7 +17,7 @@ public class Controller {
 		
 		try {
 			bot.connect("irc.twitch.tv", 6667, twitchOAuth);			
-			bot.joinChannel("#steazgaming");
+			bot.joinChannel("#channelToWatch");
 		} catch (NickAlreadyInUseException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
